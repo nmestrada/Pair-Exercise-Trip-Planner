@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script defer src="./bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.2.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="./style.css" />
     <title>Trip Planner</title>
@@ -17,19 +18,26 @@
     <div id="map"></div>
     <div class="sidebar">
     <div class ="available">
+        <div class="dropdown">
         <h3>Hotels</h3>
-        <select></select>
+        <select></select><button>+</button>
+        </div>
+        <div class="dropdown">
         <h3>Restaurants</h3>
-        <select></select>
+        <select></select><button>+</button>
+        </div>
+        <div class="dropdown">
         <h3>Activities</h3>
-        <select></select>
+        <select></select><button>+</button>
+        </div>
     </div>
-    <div class="iternary">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+    <div class="itinerary">
+            <h3>Hotels</h3>
+            <ul></ul>
+            <h3>Restaurants</h3>
+            <ul></ul>
+            <h3>Activities</h3>
+            <ul></ul>
     </div>
     </div>
 

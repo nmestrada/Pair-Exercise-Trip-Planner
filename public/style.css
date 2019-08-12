@@ -23,26 +23,52 @@ body {
 
  header {
     grid-area: a;
-    margin-left: 2em;
-    font-family: fantasy;
+    /* margin-left: 2em; */
+    font-family: "Lobster", cursive;
     color: lightblue;
+    background-color:rgb(107, 83, 68);
+    width: 100%;
+    padding-left: 20px;
+
  }
  .sidebar {
      grid-area: c;
      width:100%;
+     
 
  }
  .sidebar h3{
-    font-family: fantasy;
-    color: lightblue;
+    font-family: 'Lobster',cursive;
+    color: darkblue;
+    font-size: 1.5em;
+    margin: 10px;
  }
  .available{
      display:flex;
      flex-direction: column;
      height: 50%;
      justify-content: center;
+     background-color: lightgrey;
+
+ }
+ .dropdown {
+     display: inline-block;
+ }
+ select {
+     width: 70%;
+ }
+ button {
+     margin: 10px;
+     height: 15px;
+    width: 10px;
+    background-color: #1da1f2;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    vertical-align: center;
  }
  .itinerary{
      height: 50%;
+     background-color: lightgrey;
  }
 
